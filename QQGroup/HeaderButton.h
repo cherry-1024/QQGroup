@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  HeaderButton.h
 //  QQGroup
 //
 //  Created by csdc on 2017/8/17.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface HeaderButton : UIButton
 
++ (instancetype)buttonWithTarget:(id)target action:(SEL)action;
 
 @end
-
